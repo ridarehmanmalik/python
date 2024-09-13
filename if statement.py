@@ -1,7 +1,6 @@
+grade = 67
 
-import random
-num=random.randint(3,4)
-if num > 2:
-  print('heads')
-  else:
- print('tails')
+if grade >= 55:
+  print('You passed.')
+else:
+  print('You failed.')
